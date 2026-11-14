@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="신순근 포트폴리오" />
+  <script src="https://d3js.org/d3.v7.js" defer></script>
+  <script src="image.js" defer></script>
+  <title>신순근 — 포트폴리오</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">신순근 </br>GIS, 공간모형, 데이터 과학, 통계</a>
+    <nav aria-label="주요 탐색">
+      <a href="index.html">홈</a>
+      <a href="index.html#research">연구</a>
+      <a href="capstone.html">캡스톤</a>
+      <a href="mailto:sungeun.shin@utah.edu">연락처</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME / FIRST PAGE -->
+    <section class="hero" id="home">
+      <div class="portrait" role="img" aria-label="신순근의 프로필 사진", src="sue_aag.JPG">
+         <img class="portrait", src="images/sue_aag.JPG">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">포트폴리오 · 2026</p>
+        <h1>신순근</h1>
+        <p class="intro">
+          현재 유타대학교 박사과정 후보생으로서, 저는 GIS와 데이터 과학을 바탕으로
+          환경정의, 사회적 형평성, 및 젠트리피케이션을 중심으로 한 도시지리 연구에 기반을 두고있습니다. 
+          공간 및 다양한 통계 분석을 적용해 인과관계를 추론하고, 이를 기반으로 사회적 형평성을 위한 정책 및 프로젝트 설계에 
+          기여하는 것을 목표로 합니다
+        </p>
+        <a class="button" href="#research">현재 연구 보기 <span>→</span></a>
+      </div>
+    </section>
+
+    <!-- RESEARCH PAGE -->
+    <section class="page-section" id="research">
+      <p class="eyebrow">01 / 연구 경험</p>
+      <h2>녹지 젠트리피케이션 (Green Gentrification)과 환경정의 (Environmental Justice)</h2>
+      <div class="research-list">
+        <article>
+          <p class="date">2022 — 2026 박사과정 연구자</p>
+          <h3 style="margin-bottom: 0;">Do green space investments drive evictions? Evidence from Houston and Chicago</h3>
+          <p style="margin-top: 0; margin-bottom: 1rem;"><i>Cities [SSCI/Q1]</i> — 수정 후 재심사 중</p>
+          <p>
+              본 연구는 이중강건 이중차분(DiD) 모형을 활용하여 녹지 투자와 퇴거 위험의 관계를 분석합니다.
+              R을 바탕으로 정확한 인과관계를 추론하고자, 민감도 분석 및 플라시보 테스트 (~1,000회 반복)를 설계 및 
+              실행하였습니다. 본 연구 결과는 특정 조건에서 거대한 자본이 투자된 녹지 사업이 사회적으로 혜택을 받지 못한 지역의 퇴거 위험을
+              높일수 있음을 시사하며, 도시 녹화 사업에 형평성 중심 전략이 필요함을 제시합니다.
+          </p>
+          <a class="button" href="research.html#eviction-findings">시각적 결과 보기 <span>→</span></a>
+        <br></br>
+          <h3 style="margin-bottom: 0;">How do green space investments shape the rent gap? Evidence from Houston</h3>
+          <p style="margin-top: 0; margin-bottom: 1rem;"><i>Urban Studies [SSCI/Q1]</i> — 투고 준비 완료</p>
+          <p>본 연구는 기존 토지이용에서 자본화된 지대와 녹지사업에 따른 잠재적 기대치의 차이가 어떻게 벌어지며, 이러한 이론적인 지대 격차가
+            프로젝트 규모, 기존에 설립되어 있는 녹지공원의 분포, 그리고 세금증분재투자지구(TIRZ) 및 경전철과의 입지적 관계에 따라
+            어떻게 형성되고 달라지는지 분석합니다. 이중강건 이중차분(DiD) 모형을 활용한 결과, 대규모 녹지 사업,
+            기존 공원 면적이 적은 지역, TIRZ 및 경전철역 인근 지역에서 사업 발표 및 개장 후 저개발된 지역의 지대 가치가 상승함을 발견하였습니다.
+            본 연구는 토지 및 부동산 시장이 상대적으로 저개발된 지역에서 녹지 사업이 실행됐을 시에 얼마나 신속하게 반응할 수 있음을 
+            보여주며, 이러한 과열된 반응 속에서 소외된 주민들을 위한 정책 및 전략이 필요함을 강조합니다. 
+          </p>
+          <a class="button" href="research.html#rent-gap-findings">시각적 결과 보기 <span>→</span></a>
+        </article>
+      </div>
+    
+
+  </main>
+
+  <footer>
+    <p>© 2026 신순근 (Sungeun Shin)</p>
+    <a href="mailto:sungeun.shin@utah.edu">sungeun.shin@utah.edu</a>
+  </footer>
+</body>
+</html>
